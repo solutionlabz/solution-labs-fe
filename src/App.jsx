@@ -1,14 +1,22 @@
 import './App.css'
+import ClientComments from './components/molecules/clientComments'
+import Projects from './components/molecules/projects'
+import Subscribe from './components/molecules/subscribe'
+import WhoWeAre from './components/molecules/whoweare'
+import Footer from './components/templates/footer'
+import HomeHero from './components/templates/homeHero'
+import ServicesHero from './components/templates/servicesHero'
 
 function App() {
   return (
-    <main className='flex h-screen justify-center items-center'>
-      <section className='flex flex-col justify-center items-center gap-2'>
-        <h1 className='text-3xl font-bold'>Solution Labs ‼️</h1>
-        <p className=" text-2xl font-bold">
-          Coming Soon ⚡
-        </p>
-      </section>
+    <main>
+      <HomeHero />
+      <ServicesHero />
+      <Projects />
+      <WhoWeAre />
+      <ClientComments />
+      <Subscribe />
+      <Footer />
     </main>
   )
 }
