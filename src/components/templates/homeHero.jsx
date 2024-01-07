@@ -5,7 +5,7 @@ import smallProfile2 from '../../assets/heroSmallProfile2.png';
 import smallProfile3 from '../../assets/heroSmallProfile3.png';
 import webxiel from '../../assets/webxiel.png';
 import {GoSearch} from 'react-icons/go'
-import Button from "../atoms/button";
+// import Button from "../atoms/button";
 import {IoCloseSharp} from 'react-icons/io5'
 import {MdOutlineKeyboardArrowDown} from 'react-icons/md'
 import girlintech from '../../assets/girl.png'
@@ -31,7 +31,8 @@ const HomeHero = ()=>{
           <p className="font-skmodern text-lg tracking-[0.72px] font-normal text-[#24272D] ">Solution Labs, empower businesses with innovative IT solutions that drive digital transformation and sustainable growth. 
           </p>
           <div className="lg:hidden">
-            <Button text='Get in Touch' bgColor='#252525' />
+            {/* <Button text='Get in Touch' bgColor='#252525' /> */}
+            <button className=' px-3 md:px-7 py-5 lg:py-2 rounded-lg text-[#DFFFD0] text-base bg-[#252525] lg:text-lg font-normal leading-[0.72px] font-skmodern'>Get in Touch</button>
           </div>
           <div className="inline-flex items-center">
             <img src={smallProfile1} alt='smallProfile1'/>
@@ -87,7 +88,8 @@ const HomeHero = ()=>{
             Brand Design
             <IoCloseSharp size={20} color='#252525' />
           </p>
-          <Button text='Search' bgColor='#252525' />
+          {/* <Button text='Search' bgColor='#252525' /> */}
+           <button className=' px-3 md:px-7 py-5 lg:py-2 rounded-lg text-[#DFFFD0] text-base bg-[#252525] lg:text-lg font-normal leading-[0.72px] font-skmodern'>Search</button>
         </div>
       </section>
       <section className="bg-[#D5D5DB] py-3 my-12">
